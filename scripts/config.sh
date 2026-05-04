@@ -1,0 +1,1 @@
+PROJECT_DIR="/home/minuka/Projects/its_id_project/ITS_Extractor_V1"

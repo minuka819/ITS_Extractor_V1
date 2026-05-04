@@ -1,0 +1,21 @@
+# Large data (DO NOT PUSH)
+inputs/
+results/
+
+# Optional: keep structure but ignore contents
+# results/*
+# !results/.gitkeep
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Conda / env
+.env
+.conda
+
+# Mac/Linux junk
+.DS_Store
