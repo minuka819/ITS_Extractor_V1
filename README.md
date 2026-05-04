@@ -1,10 +1,10 @@
-ITS Extractor Pipeline (V1 - WIP)
-Overview
+#ITS Extractor Pipeline (V1 - WIP)
+##Overview
 
 This project provides a simple pipeline to extract and annotate fungal rDNA regions
 (SSU – ITS1 – 5.8S – ITS2 – LSU) from whole genome assemblies.
 
-Problem
+##Problem
 ITS regions are widely used for fungal identification
 Whole genomes are not pre-annotated for ITS regions
 ITS-only sequences lack surrounding SSU/LSU context
