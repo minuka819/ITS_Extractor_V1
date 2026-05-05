@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-source config.sh
+PROJECT_DIR="/home/minuka819/Projects/its_id_project/ITS_Extractor_V1"
 
 INPUT_DIR="$PROJECT_DIR/results/corrected_regions"
 OUT_DIR="$PROJECT_DIR/results/itsx"

@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-source config.sh
+PROJECT_DIR="/home/minuka819/Projects/its_id_project/ITS_Extractor_V1"
 QUERY_DIR="$PROJECT_DIR/inputs/its_queries/split"
 DB_DIR="$PROJECT_DIR/results/blast_dbs"
 OUT_DIR="$PROJECT_DIR/results/blast_hits"
@@ -30,7 +30,3 @@ do
 done
 
 echo "All ITS BLAST searches complete."
-
-/home/minuka819/Projects/its_id_project/ITS_Extractor_V1/results/blast_dbs
-
-/home/minuka819/Projects/its_id_project/ITS_Extractor_V1/results/blast_dbs/Aspergillus_fumigatus_ATCC_MYA-4609_db.nsq

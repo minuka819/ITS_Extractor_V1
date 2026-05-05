@@ -2,8 +2,7 @@
 
 set -euo pipefail
 
-
-source config.sh
+PROJECT_DIR="/home/minuka819/Projects/its_id_project/ITS_Extractor_V1"
 BLAST_DIR="$PROJECT_DIR/results/blast_hits"
 GENOME_DIR="$PROJECT_DIR/inputs/genomes/ATCC_mock_genomes"
 OUT_DIR="$PROJECT_DIR/results/extracted_regions"

@@ -3,11 +3,11 @@ import re
 from Bio import SeqIO
 from Bio.SeqFeature import SeqFeature, FeatureLocation
 
-
 PROJECT_DIR="/home/minuka819/Projects/its_id_project/ITS_Extractor_V1"
-INPUT_FASTA_DIR=PROJECT_DIR+"results/corrected_regions"
+INPUT_FASTA_DIR=PROJECT_DIR+"/results/corrected_regions"
 ITSX_DIR=PROJECT_DIR+"/results/itsx"
 OUT_DIR=PROJECT_DIR+"/results/genbank"
+
 
 os.makedirs(OUT_DIR, exist_ok=True)
 
